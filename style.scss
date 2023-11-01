@@ -1,0 +1,37 @@
+/* Define standard variables and values for website */
+$bgcolor:lightblue;
+$textcolor: black;
+$fontsize: 16px;
+
+/* Use the variables */
+body {
+  background-color: $bgcolor;
+  color: $textcolor;
+  font-size: $fontsize;
+}
+.king{
+    display: flex;
+}
+.container m{
+  width: 100%;
+}
+.footer{
+  width: 100%;
+  .container{
+    width: 100%;
+
+    .king{
+      width: 100%;
+    }
+  }
+}
+
+.section0{
+  text-align: center;
+
+  .section1{
+    p{
+    font: 100;
+  }
+}
+}
